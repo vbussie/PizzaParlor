@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>
+      Order From Cheech's
+    </title>
+    <link rel="stylesheet" href="styles2.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bungee&family=Lato&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/fdb6280773.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+      <a href="index.html"><img src="pizzalogo.png" alt="Neon Pizza Light" width="500" height="400" class="neon"></a>
+    <nav class="nav">
+      <ul>
+        <li><a href="index.html"><b>Home</b></a></li>
+        <li><a href="order.html"><b>Order Online</b></a></li>
+        <li><a href="menu.html"><b>Menu</b></a></li>
+        <li><a href="location.html"><b>Our Location</b></a></li>
+      </ul>
+    </nav>
+
+    <h1>ORDER FROM CHEECH'S</h1>
+
+    <div class="container">
+      <!--<div class="columns-container">-->
+      <div class="columns">
+      <form method="get" action="thankyou.html">
+      <fieldset id="contactinfo" class="contactinfo">
+        <legend>
+            Contact Information
+        </legend>
+        <label for="fname">
+        First Name:
+          <input autofocus type="text" name="fname" id="fname" required placeholder="First Name"/>
+        </label>
+        <label for="lname">
+        Last Name:
+          <input type="text" name="lname" id="lname" required placeholder="Last Name"/>
+        </label>
+        <label for="phone">
+        Phone:
+          <input type="text" name="phone" id="phone" required placeholder="Phone"/>
+        </label>
+        <label for="email">
+        E-Mail:
+          <input type="text" name="email" id="email" required placeholder="Email"/>
+        </label>
+        </fieldset>
+
+
+      <fieldset id="pizzaselection" class="orderselection">
+      <legend>
+          Order Selection
+      </legend>
+
+      <div class="orderselection">
+      <label for="pizzas">Pizza Choice</label>
+      <select name="pizza" id="pizzas" class="pizza">
+        <option value="Big Island Hawaiian">Big Island Hawaiian</option>
+        <option value="Buffalo Chicken">Buffalo Chicken</option>
+        <option value="Margheria">Margherita</option>
+        <option value="Meat Legend">The Meat Legend</option>
+        <option value="Supreme Extreme">Supreme Extreme</option>
+        <option value="The Veg">The Veg</option>
+      </select>
+
+      <div class="orderselection">
+        Quantity<br><input name="qty" id="qty" type="number" value="1" step="1" min="1" max="10"/>
+      </div>
+    </div>
+      </fieldset>
+
+        <fieldset class="info">
+          <legend>
+          Additional Info
+          </legend>
+        <textarea name="comments" class="infobox" cols="50" rows="8"></textarea>
+        </fieldset>
+          <input class="submit" type="submit" value="Submit"/>
+      </form>
+    </div>
+
+
+      <div class="columns">
+        <!--<div class="second-a"></div>-->
+        <fieldset>
+          <legend>
+          Our Community
+          </legend>
+          <blockquote>
+            <p><b>Tips a million!</b></p>
+            <p><i>Having family over for the holidays is always hectic and mass chaos. This year, instead of being stuck in the kitchen, I ordered Cheech's for the family. The fresh, local ingredients combined with the chef's special touch, left everyone with full bellies and smiles on their faces. Thank you for taking the stress off of me!</i></p>
+            <p><i>&mdash; Taylor - Visited July 1, 2021.</i></p>
+            <p><cite> <i class="fas fa-pizza-slice"></i><i class="fas fa-pizza-slice"></i> <i class="fas fa-pizza-slice"></i> <i class="fas fa-pizza-slice"></i> <i class="fas fa-pizza-slice"></i></cite></p>
+          </blockquote>
+          <blockquote>
+            <p><b>Skip the Chains! Choose Local. Choose Cheech's!</b></p>
+            <p><i>In all of my travels, I have never discovered anything quite like Cheech's Pizza! If you are in town, make this your first stop! We will be making another trip soon, just for the pizza!</i></p>
+            <p><i>&mdash;Jana - Visited June 29, 2021.</i></p>
+          </blockquote>
+        </fieldset>
+        <div class="second-b"></div>
+        <fieldset>
+          <legend>
+          Shout Outs!
+          </legend>
+          Congratulations to the local athlete and current employee, <b>Jadyn Ellis</b> for placing <b><i>1st in the Olympic Track Trials</i></b>! Stop in at any location to pick up a <i>free t-shirt</i> to wear as we root her on at the 2021 Toyko Olympic Games!
+        </fieldset>
+        <div class="second-c"></div>
+        <fieldset>
+          <legend class="socmedia">
+          Socials
+          </legend>
+          <i class="fab fa-facebook-f fa-lg fa-fw"></i>
+          <i class="fab fa-instagram fa-lg fa-fw"></i>
+          <i class="fab fa-snapchat fa-lg fa-fw"></i>
+        </fieldset>
+        </div>
+      </div>
+
+    <footer>
+       <i class="fas fa-pizza-slice"></i>Cheech's Pizzeria<i class="fas fa-pizza-slice"></i><br>47586 Sunset Drive, Sunnyville, Florida 73585<br>8746 Sunshine Blvd, Beachtown, Florida 78546
+    </footer>
+
+  </body>
+</html>
