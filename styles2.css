@@ -19,7 +19,7 @@ body{
 	background-color: #d6d6c2;
 	box-sizing:border-box;
 	flex-basis: 45%;
-  display: inline-block;
+  	display: inline-block;
 }
 
 .menu-container{
@@ -28,37 +28,38 @@ body{
 	align-items: stretch;
 	justify-content: space-between;
 }
+
 .menu {
 	padding:10px;
 	border: 2px red solid;
 	background-color: #bbb;
-	/* margin-right: 20px; */
 	box-sizing:border-box;
 	flex-basis: 33%;
-  display: inline-block;
+  	display: inline-block;
 }
 
 .neon{
- display: block;
- margin-left: auto;
- margin-right: auto;
- width: 40%;
- height: 20%;
- padding-bottom: 25px;}
+	 display: block;
+	 margin-left: auto;
+	 margin-right: auto;
+	 width: 40%;
+	 height: 20%;
+	 padding-bottom: 25px;
+}
 
 .socmedia{
-  padding-left: 10px;
+  	padding-left: 10px;
 }
 
 .orderselection, .contactinfo{
-  font-weight: bold;
-  font-size: 1em;
+	font-weight: bold;
+	font-size: 1em;
 }
-.infobox{
-  font-weight: bold;
-  font-size: 1em;
-  width: 75%;
 
+.infobox{
+	font-weight: bold;
+	font-size: 1em;
+	width: 75%;
 }
 
 fieldset{
@@ -84,11 +85,13 @@ input[type=submit] {
   padding: 14px 20px;
   margin: 8px 0;
   border: none;
-  border-radius: 4px;}
+  border-radius: 4px;
+}
 
 /* Submit Hover*/
 input[type=submit]:hover {
-  background-color: red;}
+  background-color: red;
+}
 
 footer{
   font-size: 16px;
@@ -128,12 +131,14 @@ footer{
     font-size: 1em;
     display: flex;
     justify-content: center;
-    align-items: center;}
+    align-items: center;
+   }
 
   .nav li a {
     display: block;
     padding: 15px 5px;
-    align-items: center;}
+    align-items: center;
+   }
   footer{
     font-size: 12px;
     color: white;
@@ -152,17 +157,20 @@ footer{
     padding:0;
     text-align:center;
     text-decoration: none;
-    list-style-type: none;}
+    list-style-type: none;
+}
 
 .nav li{
     display:inline;
-    text-decoration: none;}
+    text-decoration: none;
+}
 
 .nav a {
     display:inline-block;
     text-decoration: none;
     padding:10px;
-    color: white;}
+    color: white;
+}
 
 .nav a:hover {
   display:inline-block;
